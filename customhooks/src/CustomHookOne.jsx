@@ -1,5 +1,6 @@
 import {useState} from 'react';
 
+// Custom Hook 
 function useCounter(){
     const[count, setCount] =useState(0);
 
@@ -29,6 +30,7 @@ function Counter(){
     )
     
 }
+
 function customHookOne(){
     return(
         <>
