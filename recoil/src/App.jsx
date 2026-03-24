@@ -1,6 +1,7 @@
 import ContextAPI from './ContextAPI'
 import Recoil from "./recoil"
 import Memoized from './Memoized'
+import Selector from './Selector'
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
     <ContextAPI />
     <Recoil />
     <Memoized />
+    <Selector />
     </>
   )
 }
